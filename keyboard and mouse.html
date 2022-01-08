@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Keyboards & Mouse</title>
+			<style>
+				p {
+					font-family: Ariel;
+					font-size: 14pt;
+					color: MidnightBlue;
+					padding-left: 1000px;
+				}
+				
+				ul {
+					list-style-type: none;
+					margin:0;
+					padding:0;
+					overflow: hidden;
+					background-color: black;
+				}
+				
+				li {
+					float:left;
+				}
+				
+				li a {
+					display: block;
+					color: white;
+					text-align: center;
+					padding: 14px 16px;
+					text-decoration: none;
+					font-family: tahoma;
+					font-size: 14pt;
+				}
+				
+				li a:hover {
+					background-color: #777;
+					color: #111;
+				}
+				
+				h1 {
+					 color:darkblue;
+					 text-align:center;
+					 word-spacing:20px;
+					 font-size:50pt;
+					 font-family: Ariel;
+				}
+			</style>
+			<script>
+				function changeImgOne(img) {
+					document.getElementById('ImgOne').src = img
+				}
+				function changeImgTwo(img) {
+					document.getElementById('ImgTwo').src = img
+				}
+			</script>
+		</head>
+		
+		<body bgcolor="AliceBlue">
+			 <ul style="text-align:center">
+				<li><a href="computer.html" target="_self"> About the computer itself </a></li>
+				<li><a href="monitor.html" target="_self"> About the monitor </a></li>
+				<li><a href="index.html" target="_self"> Back to home </a></li>
+			 </ul>
+			 <h1 style=" color:darkblue; text-align:center; word-spacing:20px; font-size:50pt;font-family: Ariel, Ariel, sans-serif;">Keyboard</h1>
+				<br>
+			 <img src="images/keyboard.jpg" id="ImgOne" onmouseover="changeImgOne('images/keyboard 2.jpg')" onmouseout="changeImgOne('images/keyboard.jpg')" align="left" style="padding:30px; border: 5px ridge lime; margin-right: 20px;"
+			 <p>
+				 Keyboards are 1 of the inputs of the computer,<br>
+				 it has alot of keys for you to type with and<br>
+				 this allows the keyboard to know what you want to happen.
+			 </p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<h1>Mouse</h1>
+			 <img src="images/mouse.jpg" id="ImgTwo" onmouseover="changeImgTwo('images/mouse 2.jpg')" onmouseout="changeImgTwo('images/mouse.jpg')" align="left" style="padding: 30px; border: 5px ridge violet; margin-right: 20px;"
+			 <p style="font-family: Ariel; font-size: 14pt; color: MidnightBlue; padding-left: 1000px;">
+			 A mouse is another type of input of the computer,<br> 
+			 it has 3 buttons and a sensor on the bottom of the mouse.<br> 
+			 Some mice, like gaming mice, has more buttons on the mouse <br>on the 
+			 sides of the mouse.
+			 </p>
+		</body>
+	</html>

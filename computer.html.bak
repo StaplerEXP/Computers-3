@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Computers</title>
+			<style>
+				p {
+					font-family: "Ariel", Ariel, sans-serif;
+					color: MidnightBlue;
+					font-size: 13pt;
+					padding-left:1000px;
+				}
+				
+				ul {
+					list-style-type: none;
+					margin:0;
+					padding:0;
+					overflow: hidden;
+					background-color: black;
+				}
+				
+				li {
+					float:left;
+				}
+				
+				li a {
+					display: block;
+					color: white;
+					text-align: center;
+					padding: 14px 16px;
+					text-decoration: none;
+					font-family: tahoma;
+					font-size: 14pt;
+				}
+				
+				li a:hover {
+					background-color: #777;
+					color: #111;
+				}
+			</style>
+			<script>
+				function changeImgOne(img) {
+					document.getElementById('ImgOne').src = img;
+				}
+			</script>
+		</head>
+		<body bgcolor="AliceBlue">
+			<ul>
+				<li><a href="Computers.html" target="_self"> Back to home </a></li>
+				<li><a href="monitor.html" target="_self"> About the monitor </a></li>
+				<li><a href="keyboard and mouse.html" target="_self"> About the keyboard and mouse </a></li>
+
+			</ul>
+			<h1 style="color:darkblue; text-align:center; word-spacing:20px;
+			font-size:50pt; font-family: Ariel, Ariel, sans-serif;">Computers</h1>
+			
+			<h4 style="color:darkblue; text-align:center; word-spacing:6px; 
+			letter-spacing:2px; font-size:25pt; font-family:Ariel" >What are they?</h4>
+			<img src="images/parts.jpg" id="ImgOne" onmouseover="changeImgOne('images/cpu.jpg')" onmouseout="changeImgOne('images/parts.jpg')" align="left" style="padding: 20px; border: 4px gray ridge; margin: 15px" width="350" height="350"/>
+			<p>
+				You're probably already familiar with
+				the most<br> vital ingredients that make up
+				a typical computer recipe. You need a <b>CPU</b><br>
+				(central processing unit), which is the
+				so-called brain of the computer. It processes
+				instructions<br> given to it by software, such
+				as your word processing or accounting programs.
+			</p>
+			<p>
+				A computer also needs a place to store data. 
+				That's usually a magnetic hard drive.<br> 
+				Contemporary hard drives can store many 
+				gigabytes or <i>even terabytes</i> worth of data.
+				Newer<br> (and usually more expensive) hard
+				drives are <br>solid-state drives that have no
+				moving parts, and thus, aren't as susceptible
+				to mechanical<br> failure as older versions.
+			</p>
+			
+			<p>
+				Hard drives are for semi-permanent or long-term data 
+				storage. <br><b>RAM</b> (random access memory), however, is 
+				short-term storage with <br>smaller capacity. <b>RAM</b> is 
+				much faster to access than a hard drive, so it's 
+				important for <br>overall system speed and multi-tasking.
+			</p>
+			
+			<p>
+				A <b>motherboard</b> is often likened to the human central<br>
+				nervous system. It connects all parts and helps them<br>
+				function as a single machine. Without this crucial
+				circuit board, <br>your computer would be non-functioning
+				collection of pricey electronics.
+			</p>
+
+		</body>
+	</html>

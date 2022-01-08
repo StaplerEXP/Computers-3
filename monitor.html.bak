@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Monitors</title>
+			<style>
+				p {
+				font-family: "Ariel", Ariel, sans-serif;
+				color: MidnightBlue;
+				padding-left: 1000px;
+				}
+				
+				ul {
+					list-style-type: none;
+					margin:0;
+					padding:0;
+					overflow: hidden;
+					background-color: black;
+				}
+				
+				li {
+					float:left;
+				}
+				
+				li a {
+					display: block;
+					color: white;
+					text-align: center;
+					padding: 14px 16px;
+					text-decoration: none;
+					font-family: tahoma;
+					font-size: 14pt;
+				}
+				
+				li a:hover {
+					background-color: #777;
+					color: #111;
+				}
+			</style>
+			<script>
+				function changeImgOne(img) {
+					document.getElementById('ImgOne').src = img;
+				}
+			</script>
+		</head>
+		
+		<body bgcolor="AliceBlue">
+		
+			<ul>
+				<li><a href="computer.html" target="_self"> About the computer itself </a></li>
+				<li><a href="Computers.html" target="_self"> Back to home </a></li>
+				<li><a href="keyboard and mouse.html" target="_self"> About the keyboard and mouse </a></li>
+			</ul>
+			
+			<h1 style=" color:darkblue; text-align:center; word-spacing:20px; font-size:35pt;font-family: Ariel, Ariel, sans-serif;">What are monitors?</h1>
+				<br>
+			<img src="images/monitor.jpg" id="ImgOne" onmouseover="changeImgOne('images/monitor 2.jpg')" onmouseout="changeImgOne('images/monitor.jpg')" align="left" height="350" width="550" style="padding:25px; border: ridge 5px blue; margin: 50px"/>
+			<p>
+			A computer monitor is an output device<br> 
+			that displays information in pictorial
+			or text form. <br>A monitor usually comprises
+			a visual display, <br>some circuitry, a casing, 
+			and a power supply.
+			</p>
+				<br>
+			<p>
+			Originally, computer monitors were used for 
+			data<br> processing while television sets were 
+			used for entertainment.<br> From the 1980s onwards,
+			computers (and their monitors)<br> have been used
+			for both data processing and entertainment,<br> while
+			televisions have implemented some computer<br> functionality.
+			The common aspect ratio of televisions,<br> and computer monitors,
+			has changed from<br> 4:3 to 16:10, to 16:9. 
+			</p>
+		</body>
+	</html>

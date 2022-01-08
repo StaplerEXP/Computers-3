@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About Computers</title>
+		<link href="style.css" rel="stylesheet">
+		<script>
+			function changeImgOne(img) {
+				document.getElementById('ImgOne').src = img;
+			}
+			function changeImgTwo(img) {
+				document.getElementById('ImgTwo').src = img;
+			}
+		</script>
+	</head>
+		<body bgcolor="AliceBlue">
+					
+					<ul>
+						<li><a href="computer.html" target="_self"> About the computer itself </a></li>
+						<li><a href="monitor.html" target="_self"> About the monitor </a></li>
+						<li><a href="keyboard and mouse.html" target="_self"> About the keyboard and mouse </a></li>
+					</ul>
+					<br>
+			<h1 style=" color:darkblue; text-align:center; word-spacing:20px; font-size:50pt;font-family: Ariel, Ariel, sans-serif;">About computers</h1>
+					<br>
+					<br>
+				<img src="images/computer.jpg" onmouseover="changeImgOne('images/computer 2.jpg')" onmouseout="changeImgOne('images/computer.jpg')" id="ImgOne" align="left" height="300" width="600" class="imgone" />
+				<p>
+				 A <a href="computer.html" target="_self"> computer </a> is an electronic device that
+				 manipulates information, or data.<br> It has
+				 the ability to store, retrieve, and process
+				 data. You can use a <a href="computer.html" target="_self"> computer </a> to<br> type documents, 
+				 send email, play games, and browse the Web. You can
+				 also use it to<br> edit or create spreadsheets,
+				 presentations, and even videos.</p>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					
+				<img src="images/laptop.jpg" id="ImgTwo" onmouseover="changeImgTwo('images/laptop 2.jpg')" onmouseout="changeImgTwo('laptop.jpg')" align="left" height"280" width="600" class="imgtwo"/>
+				<p>
+				 Most computers need additional parts, they need a keyboard
+				 and mouse to be used and some<br> require a <a href="monitor.html" target="_self"> monitor </a>, but
+				 some computers, like laptops, don't need any additional parts 
+				 to work, and are even portable
+				</p>
+					
+		</body>
+
+</html>

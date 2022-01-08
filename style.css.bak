@@ -1,0 +1,44 @@
+				p {
+					font-family: "Ariel", Ariel, sans-serif;
+					color: MidnightBlue;
+					padding-left: 1000px;
+				}
+				
+				img.imgone{
+					border: 5px aqua ridge;
+					padding: 25px;
+				}
+				
+				img.imgtwo{
+					border: 8px orange ridge;
+					padding: 22px;
+					align:center-right
+					margin: 5px; 
+				}
+				
+				ul {
+					list-style-type: none;
+					margin:0;
+					padding:0;
+					overflow: hidden;
+					background-color: black;
+				}
+				
+				li {
+					float:left;
+				}
+				
+				li a {
+					display: block;
+					color: white;
+					text-align: center;
+					padding: 14px 16px;
+					text-decoration: none;
+					font-family: tahoma;
+					font-size: 14pt;
+				}
+				
+				li a:hover {
+					background-color: #777;
+					color: #111;
+				}
